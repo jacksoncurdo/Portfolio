@@ -1,9 +1,12 @@
 nav {
-    border: solid 10px black;
+    border: solid black 10px;
 }
-
-body {
-    background-image: url(./images/unsplash.jpg);
-    background-color: #aaaaaa;
-}
-
+  body {
+    height: 100%;
+    /* Center and scale the image nicely */
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/teton.jpg);
+    background-color: #CCCCCC;
+  }
